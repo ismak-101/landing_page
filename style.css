@@ -6,14 +6,17 @@ body {
     overflow: hidden;
 }
 
-.header {
+.top {
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 16px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .logo {
@@ -32,8 +35,7 @@ ul {
 }
 
 .content1 {
-    background-color: #1f2937;
-    color: #f9faf8;   
+    background-color: #1f2937;   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,3 +69,32 @@ button {
     width: 350px;
     border-radius: 8px;
 }
+
+.title2 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.content2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.pic1 {
+    height: auto;
+    width: 100px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.first, .second, .third, .fourth {
+ 
+  max-width: 150px;
+}
+
