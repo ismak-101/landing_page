@@ -83,6 +83,7 @@ button {
 .content2 {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     text-align: center;
 }
@@ -112,8 +113,6 @@ button {
 
 #con1 {
     font-size: 36px;
-    
-    
 }
 
 #con2 {
