@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    overflow: hidden;
+    
 }
 
 .top {
@@ -98,3 +98,23 @@ button {
   max-width: 150px;
 }
 
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 150px;
+    flex-direction: column;
+}
+
+#con1 {
+    font-size: 36px;
+    
+    
+}
+
+#con2 {
+    font-weight: 500;
+    align-self: flex-end;
+}
